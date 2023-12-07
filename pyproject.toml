@@ -7,8 +7,14 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
+pdfkit = "^1.0.0"
+requests= "^2.25.1"
+pyppeteer = "^1.0.2"
 
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+
+license = "MIT"
